@@ -1,0 +1,86 @@
+{
+  "ENG": {
+    "buttons": {
+      "order": "Make an order",
+      "explore": "Explore "
+    },
+    "header":{
+      "home": "Home",
+      "menu": "Menu",
+      "contact": "Contact",
+      "portfolio": "Contact",
+      "quick": "Its Quick & Amusing!",
+      "little": "Little bite of big delight",
+      "choose": "Choose the ideal appetizers for your event"
+    },
+    "offer":{
+      "buffet": "Buffet menu",
+      "uniq": "\"With unique flavors and elegant design, our buffet menu will give your event a unique charm and guests' satisfaction. Trust us to make your buffet unforgettable and impressive.\"",
+      "food_box": "Food box",
+      "food_box_text": "We are delighted to offer you our exclusive culinary creations elegantly packaged in convenient boxes, perfect for events of all sizes. Opt for excellence with us and elevate your event experience.",
+      "coffee_break": "Coffee break",
+      "coffee_break_text": "Indulge in a delightful coffee break with our diverse and freshly curated selection, adding a unique warmth and energy to your event."
+    },
+    "about_us": "About us",
+    "about_us_subtitle": "Why did we name our catering company \"pezzo\", which means \"a piece\" in Italian?",
+    "about_us_text": "Just like a puzzle coming together to create a beautiful picture, our catering service pieces together flavors, aesthetics, and ambiance to craft unforgettable experiences, leaving lasting impressions on our clients and guests. It represents our dedication to delivering harmony of taste and style in every event we cater."
+
+  },
+  "ARM": {
+    "buttons": {
+      "order": "Պատվիրել",
+      "explore": "Հետազոտել"
+
+    },
+    "header": {
+      "home": "Գլխավոր",
+      "menu": "Մենյու",
+      "contact": "Կապ մեզ հետ",
+      "portfolio": "Պորտֆոլիո",
+      "quick": "Դա արագ և զվարճալի է!",
+      "little": "Մեծ հաճույքի փոքրիկ խայթոց",
+      "choose": "Ընտրեք իդեալական նախուտեստներ Ձեր միջոցառման համար"
+    },
+    "offer":{
+      "buffet": "Ֆուրշետի ճաշացանկ",
+      "uniq": "«Անկրկնելի համերով և էլեգանտ ձևավորմանբ՝ մեր ֆուրշետի ճաշացանկը Ձեր միջոցառմանը կհաղորդի յուրահատուկ հմայք և հյուրերի գոհունակություն։ Վստահեք մեզ, Ձեր ֆուրշետը դաձնելու անմոռանալի և տպավորիչ»:",
+      "food_box": "Food box",
+      "food_box_text": "Սիրով կմատուցենք Ձեզ, մեր հարմարավետ տուփերում փաթեթավորված յուրահատուկ ճաշատեսակները, որոնք իդեալական լուծում են ցանկացած մասշտաբի միջոցառման համար։\u2028Ընտրեք լավագույնը հենց մե՛զ հետ։\u2028\u2028",
+      "coffee_break": "Coffee break",
+      "coffee_break_text":"Վայելե՛ք Ձեր սուրճի ընդմիջումը, ընտրելով մեր  բազմազան և թարմ տեսականին, որը կհաղորդի Ձեր միջոցառմանը յուրահատուկ ջերմություն և Էներգիա։\u2028"
+    },
+    "about_us": "Մեր մասին",
+    "about_us_subtitle": "Ինչու՞ ենք մեր \nքեյթրինգային ընկերությունը անվանել \"pezzo\", որ իտալերենից թարգմանաբար նշանակում է «պատառ»:",
+    "about_us_text": "Մեր քեյթրինգային ընկերությունը ստեղծվել է մի նպատակով՝ կազմակերպել համի և ոճի ներդաշնակությամբ լի միջոցառումներ։\nՄեր առաքելությունն է՝ Ձեր առիթը դարձնել անմոռանալի, թողնելով վառ տպավորություններ մեր քեյթրինգային գործունեության յուրօրինակ փորձառության մասին։"
+
+  },
+  "RU": {
+    "buttons": {
+      "order": "Заказать",
+      "explore": "Исследовать "
+
+    },
+    "header": {
+      "home": "Домой",
+      "menu": "Меню",
+      "contact": "Контакт",
+      "portfolio": "Портфолио",
+      "quick": "Это быстро и забавно!",
+      "little": "Маленький кусочек большого удовольствия",
+      "choose": "Выбирайте идеальные закуски для вашего мероприятия"
+    },
+    "offer":{
+      "buffet": "Фуршетное меню",
+      "uniq": "\"Неповторимые вкусы и элегантное оформление - наше фуршетное меню придаст вашему событию неповторимый шарм и восторженные отклики гостей. Доверьте нам создание незабываемого впечатления для вас и ваших гостей.\"",
+      "food_box": "Food/Boom  box",
+      "food_box_text": "\"Изысканные блюда, упакованные с любовью в удобные боксы - наше фуд-бокс-меню идеально подходит для мероприятий любого масштаба. Наслаждайтесь вкусными и удобными решениями вместе с нами!\"",
+      "coffee_break": "Кофе брейк",
+      "coffee_break_text": "\"Разнообразные ароматы и свежий вкус кофейных напитков нашего кейтеринга подарят вашему событию уют и энергию. Наслаждайтесь неповторимым кофейным брейком вместе с нами!\""
+
+    },
+    "about_us": "О нас",
+    "about_us_subtitle": "Как мы назвали нашу кейтеринговую компанию \"pezzo\", что в переводе с итальянского означает \"кусок\".",
+    "about_us_text": "Наше кейтеринговое агентство было основано с одной целью - создавать незабываемые мероприятия, наполненные вкусом и стилем. Наша миссия - сделать ваше событие незабываемым и оставить яркие впечатления об уникальном опыте нашего кейтеринга."
+  }
+
+}
