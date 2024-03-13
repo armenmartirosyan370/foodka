@@ -9,7 +9,7 @@
         $(document).on('click', '.navbar-area .navbar-nav li.menu-item-has-children>a', function (e) {
             e.preventDefault();
         })
-       
+
         /*-------------------------------------
             menu
         -------------------------------------*/
@@ -17,7 +17,7 @@
             $(this).toggleClass('open');
             $('.navbar-area .navbar-collapse').toggleClass('sopen');
         });
-    
+
         // mobile menu
         if ($(window).width() < 992) {
             $(".in-mobile").clone().appendTo(".sidebar-inner");
@@ -199,12 +199,12 @@
         //     });
         //
         // }
-        
+
         // window.addEventListener("mousemove", touches);
         // window.addEventListener("touchstart", touches);
         // window.addEventListener("touchmove", touches);
 
-        
+
 
         /*------------------------------------------------
             Magnific JS
@@ -278,7 +278,7 @@
         else {
             mainMenuTop.removeClass('navbar-area-fixed');
         }
-        
+
         var ScrollTop = $('.back-to-top');
         if ($(window).scrollTop() > 1000) {
             ScrollTop.fadeIn(1000);
@@ -315,6 +315,7 @@
 
    function getLanguage() {
        document.getElementById('language').addEventListener('change', function (event) {
+
            localStorage.setItem('lang', event.target.value);
            location.reload()
        })
@@ -327,26 +328,28 @@
 
     let languageJson;
     $.getJSON('./assets/i18n/language.json', function(data) {
-        languageJson =data
+        languageJson =data;
+        if(localStorage.getItem('lang')===null){
+            localStorage.setItem('lang',"ENG");
+        }
         getData()
         getLanguage()
+
     });
-    getData()
 
     function getData() {
         const lng = localStorage.getItem('lang')
-
         const content = `
-        <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div id="wave1">
-            </div>
-            <div class="spinner">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-            </div>
-        </div>
-    </div>
+<!--        <div class="preloader" id="preloader">-->
+<!--        <div class="preloader-inner">-->
+<!--            <div id="wave1">-->
+<!--            </div>-->
+<!--            <div class="spinner">-->
+<!--                <div class="dot1"></div>-->
+<!--                <div class="dot2"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 <div class="body-overlay" id="body-overlay"></div>
 <div class="td-search-popup" id="td-search-popup">
         <form action="index.html" class="search-form">
@@ -567,22 +570,14 @@
                     </div>
                     <ul class="product-nav nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-ramen-tab" data-bs-toggle="pill" data-bs-target="#pills-ramen" type="button" role="tab" aria-controls="pills-ramen" aria-selected="true"><img src="assets/img/category/1.png" alt="img">Ramen</button>
+                          <button class="nav-link active" id="pills-ramen-tab" data-bs-toggle="pill" data-bs-target="#pills-ramen" type="button" role="tab" aria-controls="pills-ramen" aria-selected="true"><img src="assets/img/category/4.png" alt="img">Buffet menu</button>
+                        </li>
+                   
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-fast-food-tab" data-bs-toggle="pill" data-bs-target="#pills-fast-food" type="button" role="tab" aria-controls="pills-fast-food" aria-selected="false"><img src="assets/img/category/5.png" alt="img">Coffee break</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza" type="button" role="tab" aria-controls="pills-pizza" aria-selected="false"><img src="assets/img/category/2.png" alt="img">Pizza</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-burger-tab" data-bs-toggle="pill" data-bs-target="#pills-burger" type="button" role="tab" aria-controls="pills-burger" aria-selected="false"><img src="assets/img/category/3.png" alt="img">Burger</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-french-fry-tab" data-bs-toggle="pill" data-bs-target="#pills-french-fry" type="button" role="tab" aria-controls="pills-french-fry" aria-selected="false"><img src="assets/img/category/4.png" alt="img">French fries</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-fast-food-tab" data-bs-toggle="pill" data-bs-target="#pills-fast-food" type="button" role="tab" aria-controls="pills-fast-food" aria-selected="false"><img src="assets/img/category/5.png" alt="img">Fast food</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-drinks" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false"><img src="assets/img/category/6.png" alt="img">Soft drinks</button>
+                            <button class="nav-link" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-drinks" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false"><img src="assets/img/category/6.png" alt="img">Food box</button>
                         </li>
                     </ul>
                 </div>
@@ -1200,6 +1195,7 @@
                         </div>
                     </div>
                 </div>
+                <a class="mx-auto mt-5 btn btn-secondary" href="shop.html">${languageJson[lng].buttons.explore} </a>
             </div>
         </div>
     </section>

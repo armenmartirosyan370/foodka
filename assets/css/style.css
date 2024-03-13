@@ -43,18 +43,7 @@ Version: 1.0.0
   font-family: GreatVibes;
   src:url(../fonts/Great_Vibes/GreatVibes-Regular.ttf);
 }
-@font-face {
-  font-family: Helvetica;
-  src:url(../fonts/Helvetica-Font/Helvetica.ttf);
-}
-@font-face {
-  font-family: Helvetica-Light;
-  src:url(../fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
-}
-@font-face {
-  font-family: Helvetica-Rounded;
-  src:url(../fonts/Helvetica-Font/helvetica-rounded-bold-5871d05ead8de.otf);
-}
+
 :root {
   --body-font-size: 16px;
   --line-height30: 1.8;
@@ -67,8 +56,8 @@ Version: 1.0.0
   --heading-color: #292929;
   --bebas-font: "Bebas Neue", cursive;
   --satisfy-font: "Satisfy", cursive;
-  --great-font: "GreatVibes", cursive;
-  --helvetica-font: "Helvetica";
+  --great-font: "Great Vibes", cursive;
+  --montserrat-font: "Montserrat", sans-serif;
 }
 
 html {
@@ -811,7 +800,7 @@ ul {
 }
 .section-title .sub-title {
   color: var(--heading-color);
-  font-family: var(--helvetica-font);
+  font-family: var(--montserrat-font);
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -2812,7 +2801,7 @@ ul.side-navbar-items li a:hover {
 .banner-inner h1 {
   color: #333333;
   font-size: 48px;
-  font-family: var( --helvetica-font);
+  font-family: var(--montserrat-font);
   font-weight: 700;
   line-height: 68px;
   margin-bottom: 20px;
@@ -2820,7 +2809,7 @@ ul.side-navbar-items li a:hover {
 .banner-inner p {
   margin-bottom: 30px;
   font-size: 16px;
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
 }
 
 /****category-area****/
@@ -2960,7 +2949,7 @@ ul.side-navbar-items li a:hover {
 }
 .single-offer-wrap .wrap-details h3 {
   color: #fff;
-  font-family: Helvetica-Rounded;
+  font-family:var(--montserrat-font);
 
 }
 .single-offer-wrap .wrap-details h3 span {
@@ -2976,7 +2965,7 @@ ul.side-navbar-items li a:hover {
 .single-offer-wrap .wrap-details p {
   color: #fff;
   font-size: 16px;
-  font-family: Helvetica-Light;
+  font-family: var(--montserrat-font);
 }
 .single-offer-wrap .wrap-details .btn {
   height: 48px;
@@ -3157,14 +3146,14 @@ ul.side-navbar-items li a:hover {
 }
 .about-area .section-title p{
   font-size: 18px;
-  font-family: Helvetica-Light;
+  font-family: var(--montserrat-font);
   line-height: 26px;
   color: #4F4F4F;
 
 }
 .about-area .section-title h6{
   font-size: 16px;
-  font-family: Helvetica-Light;
+  font-family: var(--montserrat-font);
   line-height: 26px;
   color: #4F4F4F;
 
@@ -3191,7 +3180,7 @@ ul.side-navbar-items li a:hover {
   background: #FAF7F2;
 }
 .section-title .about_info{
-  font-family: GreatVibes;
+  font-family: var(--great-font);
   font-size: 32px;
   color: var(--secondary-color);
   font-weight: 400;
@@ -3204,38 +3193,39 @@ ul.side-navbar-items li a:hover {
   justify-content: center;
 }
 .product-area .sub-title{
-  font-family: GreatVibes;
+  font-family: var(--great-font);
   font-size: 32px;
   color: var(--secondary-color);
 }
 .product-area .title{
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
   font-weight: 700;
   font-size: 32px;
 }
 .product-nav {
   margin-bottom: 50px;
+  justify-content: center;
 }
 .product-nav .nav-item {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   width: 16.6666666667%;
-  padding: 0 15px;
+  margin: 10px;
 }
 .product-nav .nav-item:first-child {
-  padding-left: 0;
+  padding-left: 20px;
 }
 .product-nav .nav-item:last-child {
   padding-right: 0;
 }
 .product-nav .nav-item .nav-link {
-  height: 80px;
   background-color: #fff;
   border-radius: 50px;
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+  font-family: var(--montserrat-font);
 }
 .product-nav .nav-item .nav-link img {
   margin-right: 10px;
@@ -4018,7 +4008,7 @@ ul.side-navbar-items li a:hover {
   background: #F6F1E7;
 }
 .sidebar-area .widget-title {
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
   font-size: 24px;
   font-weight: 600;
   color: var(--heading-color);
@@ -4243,7 +4233,7 @@ ul.side-navbar-items li a:hover {
   background: #ffffff;
 }
 .footer-area .contact_info_list .single-info-item .details {
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
   font-size: 16px;
   font-weight: 500;
   color: #333333;
@@ -4277,14 +4267,14 @@ ul.side-navbar-items li a:hover {
   color: #fff;
 }
 .footer-area .widget-title {
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
   font-size: 16px;
   font-weight: 700;
   color: #333333;
   margin-bottom: 27px;
 }
 .footer-area .widget_link li a{
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
   font-size: 16px;
   color: #828282;
 
@@ -4338,7 +4328,7 @@ ul.side-navbar-items li a:hover {
   padding: 30px 0;
 }
 .footer-bottom .copyright-area p {
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
   font-size: 14px;
   color: #4F4F4F;
   margin-bottom: 0;
@@ -4605,7 +4595,7 @@ ul.side-navbar-items li a:hover {
 }
 .wrap-2 .wrap-details p {
   color: #474747;
-  font-family: Helvetica-Light;
+  font-family:var(--montserrat-font);
   font-size: 16px;
 }
 .single-offer-wrap.single-offer-wrap-5 {
@@ -4797,7 +4787,7 @@ ul.side-navbar-items li a:hover {
 }
 .portfolio h3 {
   font-size: 32px;
-  font-family: Helvetica;
+  font-family: var(--montserrat-font);
   line-height: 47px;
   color: #ffffff;
 }
